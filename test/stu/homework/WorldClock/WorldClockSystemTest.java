@@ -29,7 +29,7 @@ public class WorldClockSystemTest {
     }
 
     @Test
-    @DisplayName("test ClockList in Class WorldClockSystem")
+    @DisplayName("Test ClockList in Class WorldClockSystem")
     void testClockListUse() {
         clocks[0].setLocalTime(LocalTime.of(1, 10));
         clocks[1].setLocalTime(LocalTime.of(2, 20));
@@ -44,6 +44,22 @@ public class WorldClockSystemTest {
                 ()->assertEquals("Moscow: 03:30", testClocks[2].getLocation() + ": " + testClocks[2].getLocalTime().format(DateTimeFormatter.ofPattern("HH:mm")))
         );
     }
-    
+
+    @Test
+    @DisplayName("Test the PhoneClock's calibration function")
+    void testPhoneClockCalibration() {
+        ((PhoneClock)clocks[0]).setWorldClockSystem(worldClockSystem);
+        clocks[1].setLocalTime(LocalTime.of(2, 30));
+        clocks[2].setLocalTime(LocalTime.of(3, 30));
+        clocks[3].setLocalTime(LocalTime.of(4, 30));
+        clocks[4].setLocalTime(LocalTime.of(5, 30));
+        clocks[0].setLocalTime(LocalTime.of(12, 30));
+        assertAll(
+                ()->assertEquals("London: 04:30", clocks[1].getLocation() + ": " + clocks[1].getLocalTime().format(DateTimeFormatter.ofPattern("HH:mm"))),
+                ()->assertEquals("Moscow: 08:30", clocks[2].getLocation() + ": " + clocks[2].getLocalTime().format(DateTimeFormatter.ofPattern("HH:mm"))),
+                ()->assertEquals("Sydney: 14:30", clocks[3].getLocation() + ": " + clocks[3].getLocalTime().format(DateTimeFormatter.ofPattern("HH:mm"))),
+                ()->assertEquals("New York: 23:30", clocks[4].getLocation() + ": " + clocks[4].getLocalTime().format(DateTimeFormatter.ofPattern("HH:mm")))
+        );
+    }
 
 }

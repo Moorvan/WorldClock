@@ -24,7 +24,7 @@ class ClockTest {
     }
 
     @Test
-    @DisplayName("set and get the Clock time")
+    @DisplayName("Set and get the Clock time")
     void testClockSetGet() {
         clocks[0].setLocalTime(LocalTime.of(1, 10));
         clocks[1].setLocalTime(LocalTime.of(3, 20));

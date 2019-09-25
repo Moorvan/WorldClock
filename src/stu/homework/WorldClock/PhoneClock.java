@@ -18,7 +18,7 @@ public class PhoneClock extends Clock{
     public void setLocalTime(LocalTime localTime) {
         super.localTime = localTime;
         if(worldClockSystem != null)
-            worldClockSystem.updateClocks(localTime.minusHours(this.getUTCOffSet()));
+            worldClockSystem.updateClocks(localTime.plusHours(this.getUTCOffSet()));
     }
 
 }
