@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41dba603-5a3f-4540-8e09-eaaed7c8dd2d" name="Default" comment="" />
+    <list default="true" id="41dba603-5a3f-4540-8e09-eaaed7c8dd2d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/stu/homework/WorldClock/ClockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/stu/homework/WorldClock/ClockTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,25 +19,29 @@
       <file leaf-file-name="Clock.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/stu/homework/WorldClock/Clock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="684">
+              <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
               <folding>
                 <element signature="e#340#341#0" expanded="true" />
                 <element signature="e#376#377#0" expanded="true" />
                 <element signature="e#415#416#0" expanded="true" />
                 <element signature="e#447#448#0" expanded="true" />
-                <element signature="e#575#576#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
                 <element signature="e#607#608#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClockTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ClockTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/stu/homework/WorldClock/ClockTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="300">
+              <caret line="34" column="142" selection-start-line="34" selection-start-column="142" selection-end-line="34" selection-end-column="142" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,18 +60,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WorldClockSystem.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WorldClockSystem.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/stu/homework/WorldClock/WorldClockSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="685">
-              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="486">
+              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#241#256#0" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-                <element signature="e#357#358#0" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#450#451#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,13 +82,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/stu/homework/WorldClock/Clock.java" />
-        <option value="$PROJECT_DIR$/test/stu/homework/WorldClock/ClockTest.java" />
         <option value="$PROJECT_DIR$/src/stu/homework/WorldClock/PhoneClock.java" />
         <option value="$PROJECT_DIR$/src/stu/homework/WorldClock/WorldClockSystem.java" />
+        <option value="$PROJECT_DIR$/test/stu/homework/WorldClock/ClockTest.java" />
       </list>
     </option>
   </component>
@@ -101,11 +107,11 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="830" />
-    <option name="y" value="184" />
-    <option name="width" value="1233" />
-    <option name="height" value="947" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="48" />
+    <option name="y" value="49" />
+    <option name="width" value="1440" />
+    <option name="height" value="831" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -116,28 +122,33 @@
         <subPane>
           <expand>
             <path>
-              <item name="worldClock" type="b2602c69:ProjectViewProjectNode" />
-              <item name="worldClock" type="462c0819:PsiDirectoryNode" />
+              <item name="WorldClock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WorldClock" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="worldClock" type="b2602c69:ProjectViewProjectNode" />
-              <item name="worldClock" type="462c0819:PsiDirectoryNode" />
+              <item name="WorldClock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WorldClock" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WorldClock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WorldClock" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="worldClock" type="b2602c69:ProjectViewProjectNode" />
-              <item name="worldClock" type="462c0819:PsiDirectoryNode" />
+              <item name="WorldClock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WorldClock" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="WorldClock" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="worldClock" type="b2602c69:ProjectViewProjectNode" />
-              <item name="worldClock" type="462c0819:PsiDirectoryNode" />
+              <item name="WorldClock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WorldClock" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="worldClock" type="b2602c69:ProjectViewProjectNode" />
-              <item name="worldClock" type="462c0819:PsiDirectoryNode" />
+              <item name="WorldClock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WorldClock" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="WorldClock" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -145,8 +156,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -159,7 +170,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../MeetHere" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../OOD/hk/Ant" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -187,7 +198,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WorldClockSystem">
+  <component name="RunManager" selected="JUnit.ClockTest">
     <configuration name="Clock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stu.homework.WorldClock.Clock" />
       <module name="worldClock" />
@@ -212,6 +223,29 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="ClockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="worldClock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stu.homework.WorldClock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="stu.homework.WorldClock" />
+      <option name="MAIN_CLASS_NAME" value="stu.homework.WorldClock.ClockTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -254,9 +288,11 @@
     <list>
       <item itemvalue="Application.Clock" />
       <item itemvalue="Application.WorldClockSystem" />
+      <item itemvalue="JUnit.ClockTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ClockTest" />
         <item itemvalue="Application.WorldClockSystem" />
         <item itemvalue="Application.Clock" />
       </list>
@@ -276,44 +312,63 @@
       <workItem from="1569241488054" duration="2932000" />
       <workItem from="1569296410864" duration="1553000" />
       <workItem from="1569300835187" duration="4321000" />
+      <workItem from="1569319783733" duration="164000" />
+      <workItem from="1569319988830" duration="3518000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ClockTest - 2019.09.24 at 18h 47m 08s.xml">
+      <configuration name="ClockTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClockTest - 2019.09.24 at 18h 47m 41s.xml">
+      <configuration name="ClockTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClockTest - 2019.09.24 at 18h 48m 39s.xml">
+      <configuration name="ClockTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClockTest - 2019.09.24 at 18h 48m 55s.xml">
+      <configuration name="ClockTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClockTest - 2019.09.24 at 18h 51m 33s.xml">
+      <configuration name="ClockTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15464000" />
+    <option name="totallyTimeSpent" value="19146000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32947367" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.16403785" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33578947" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1203125" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1359375" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,6 +383,99 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/stu/homework/WorldClock/Clock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stu/homework/WorldClock/PhoneClock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stu/homework/WorldClock/WorldClockSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/stu/homework/WorldClock/ClockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stu/homework/WorldClock/Clock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/stu/homework/WorldClock/ClockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stu/homework/WorldClock/PhoneClock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stu/homework/WorldClock/WorldClockSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/stu/homework/WorldClock/Clock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -360,10 +508,6 @@
           <caret line="39" column="49" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -400,10 +544,6 @@
           <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -440,10 +580,6 @@
           <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -459,25 +595,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/stu/homework/WorldClock/Clock.java">
+    <entry file="file://$PROJECT_DIR$/src/stu/homework/WorldClock/WorldClockSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="486">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
           <folding>
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/stu/homework/WorldClock/ClockTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -493,17 +617,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/stu/homework/WorldClock/WorldClockSystem.java">
+    <entry file="file://$PROJECT_DIR$/src/stu/homework/WorldClock/Clock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="685">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="684">
+          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+          <folding>
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/stu/homework/WorldClock/ClockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="34" column="142" selection-start-line="34" selection-start-column="142" selection-end-line="34" selection-end-column="142" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#241#256#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
           </folding>
         </state>
       </provider>
