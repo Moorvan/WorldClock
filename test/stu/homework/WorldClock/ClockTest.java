@@ -1,7 +1,6 @@
 package stu.homework.WorldClock;
 
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -17,7 +16,7 @@ class ClockTest {
     @Test
     @BeforeAll
     static void init() {
-        clocks[0] = new Clock("Beijing", -8);
+        clocks[0] = new PhoneClock("Beijing", -8);
         clocks[1] = new Clock("London", 0);
         clocks[2] = new Clock("Moscow", -4);
         clocks[3] = new Clock("Sydney", -10);
@@ -26,7 +25,7 @@ class ClockTest {
 
     @Test
     @DisplayName("set and get the Clock time")
-    void clockSetGet() {
+    void testClockSetGet() {
         clocks[0].setLocalTime(LocalTime.of(1, 10));
         clocks[1].setLocalTime(LocalTime.of(3, 20));
         clocks[2].setLocalTime(LocalTime.of(4, 10));
@@ -36,5 +35,6 @@ class ClockTest {
                 ()->assertEquals("Moscow(offset:-4): 04:10", clocks[2].getLocation() + "(offset:" + clocks[2].getUTCOffSet() + "): " + clocks[2].getLocalTime().format(DateTimeFormatter.ofPattern("HH:mm")))
                 );
     }
+
 
 }
